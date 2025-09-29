@@ -7,4 +7,4 @@ porcentagem = int(input('Digite o valor da porcentagem a ser acrescentada: '))
 
 total = ((porcentagem / 100) + 1) * conta
 
-print(f'O valor total da conta com a porcentagem é R$ {total:.2f}')
+print(f'O valor total da conta com a gorgeta é R$ {total:.2f}')
