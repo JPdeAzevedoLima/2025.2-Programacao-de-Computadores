@@ -62,5 +62,9 @@ if (intMedia >= 60) and (fltFrequencia>=75):
    print('APROVADO')
 elif (intMedia >= 20) and (fltFrequencia>=75):
    print('PROVA FINAL')
+elif (intMedia < 20) and (fltFrequencia >= 75):
+   print('REPROVADO POR MEDIA')
+elif (intMedia >= 60) and (fltFrequencia < 75):
+   print('REPROVADO POR FALTA')
 else:
-   print('REPROVADO')
+   print('REPROVADO POR AMBOS')
